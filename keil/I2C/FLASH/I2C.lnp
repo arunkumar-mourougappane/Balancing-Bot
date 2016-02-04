@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\flash\startup_lpc17xx.o"
+".\flash\system_lpc17xx.o"
+".\flash\i2cmst.o"
+".\flash\i2c.o"
+--strict --scatter ".\FLASH\I2C.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\FLASH\I2C.map" -o .\FLASH\I2C.axf

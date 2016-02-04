@@ -1,0 +1,3 @@
+--create ..\Mbed\build\hello.lib
+..\mbed\build\main.o
+..\mbed\build\i2c0.o

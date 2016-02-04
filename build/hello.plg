@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Arunkumar\Desktop\hello\hello.uvproj
+Project File Date:  11/01/2013
+
+<h2>Output:</h2>
+Rebuild target 'mbed NXP LPC1768'
+compiling main.cpp...
+compiling system_LPC17xx.c...
+linking...
+.\build\hello.axf: Error: L6200E: Symbol __asm___16_system_LPC17xx_c_5d646a67____REV16 multiply defined (by system_LPC17xx.o and system_lpc17xx.o).
+.\build\hello.axf: Error: L6200E: Symbol __asm___16_system_LPC17xx_c_5d646a67____REVSH multiply defined (by system_LPC17xx.o and system_lpc17xx.o).
+.\build\hello.axf: Error: L6200E: Symbol SystemCoreClock multiply defined (by system_LPC17xx.o and system_lpc17xx.o).
+.\build\hello.axf: Error: L6200E: Symbol SystemCoreClockUpdate multiply defined (by system_LPC17xx.o and system_lpc17xx.o).
+.\build\hello.axf: Error: L6200E: Symbol SystemInit multiply defined (by system_LPC17xx.o and system_lpc17xx.o).
+".\build\hello.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'mbed NXP LPC1768'
+compiling main.cpp...
+linking...
+.\build\hello.axf: Error: L6200E: Symbol __asm___16_system_LPC17xx_c_5d646a67____REV16 multiply defined (by system_LPC17xx.o and system_lpc17xx.o).
+.\build\hello.axf: Error: L6200E: Symbol __asm___16_system_LPC17xx_c_5d646a67____REVSH multiply defined (by system_LPC17xx.o and system_lpc17xx.o).
+.\build\hello.axf: Error: L6200E: Symbol SystemCoreClock multiply defined (by system_LPC17xx.o and system_lpc17xx.o).
+.\build\hello.axf: Error: L6200E: Symbol SystemCoreClockUpdate multiply defined (by system_LPC17xx.o and system_lpc17xx.o).
+.\build\hello.axf: Error: L6200E: Symbol SystemInit multiply defined (by system_LPC17xx.o and system_lpc17xx.o).
+".\build\hello.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'mbed NXP LPC1768'
+compiling main.cpp...
+linking...
+Program Size: Code=1212 RO-data=212 RW-data=20 ZI-data=0  
+After Build - User command #1: fromelf --bin -o build\hello_LPC1768.bin build\hello.axf
+".\build\hello.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'mbed NXP LPC1768'
+compiling main.cpp...
+linking...
+Program Size: Code=1212 RO-data=212 RW-data=20 ZI-data=0  
+After Build - User command #1: fromelf --bin -o build\hello_LPC1768.bin build\hello.axf
+".\build\hello.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'mbed NXP LPC1768'
+compiling main.cpp...
+linking...
+Program Size: Code=1212 RO-data=212 RW-data=20 ZI-data=0  
+After Build - User command #1: fromelf --bin -o build\hello_LPC1768.bin build\hello.axf
+".\build\hello.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'mbed NXP LPC1768'
+compiling main.cpp...
+linking...
+Program Size: Code=1212 RO-data=212 RW-data=20 ZI-data=0  
+After Build - User command #1: fromelf --bin -o build\hello_LPC1768.bin build\hello.axf
+".\build\hello.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'mbed NXP LPC1768'
+compiling main.cpp...
+linking...
+Program Size: Code=1212 RO-data=212 RW-data=20 ZI-data=0  
+After Build - User command #1: fromelf --bin -o build\hello_LPC1768.bin build\hello.axf
+"J:\hello.axf" - 0 Errors, 0 Warning(s).
+Rebuild target 'mbed NXP LPC1768'
+compiling main.cpp...
+linking...
+Program Size: Code=1212 RO-data=212 RW-data=20 ZI-data=0  
+After Build - User command #1: fromelf --bin -o build\hello_LPC1768.bin build\hello.axf
+"..\Mbed\build\hello.axf" - 0 Errors, 0 Warning(s).
